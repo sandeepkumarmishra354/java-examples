@@ -14,8 +14,17 @@ public class App {
         emp2.showFullInfo();
         System.out.println("---------------------");
 
-        Pizza pizza1 = new Pizza();
-        Pizza pizza2 = new Pizza("Large", "2X", 12);
-        pizza2.showFullInfo();
+        Pizza pizza1 = new Pizza("Base 1", "2X", 12);
+        Pizza pizza2 = new Pizza("Base 2", "2X", 12);
+        Pizza pizza3 = new Pizza("Base 3", "2X", 12);
+        Pizza pizza4 = new Pizza("Base 4", "2X", 12);
+        System.out.println("\n----------Pizza static count before bake----------");
+        System.out.println("Total baked pizza: " + Pizza.getBakedPizzaCount() + "\n");
+        pizza1.bake();
+        pizza2.bake();
+        pizza3.bake();
+        pizza4.bake();
+        System.out.println("\n----------Pizza static count after bake----------");
+        System.out.println("Total baked pizza: " + Pizza.getBakedPizzaCount() + "\n");
     }
 }
