@@ -11,7 +11,7 @@ public class Employee {
     }
 
     public Employee(String fname, String dept, double slry, int a) {
-        System.out.println("I'm parameterized costructor of employee class.");
+        System.out.println("I'm parameterized costructor of Employee class.");
         this.fullName = fname;
         this.department = dept;
         this.salery = slry;

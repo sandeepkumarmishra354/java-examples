@@ -13,7 +13,7 @@ public class Car {
         this.company = cmpny;
         this.model = mdl;
         this.price = prc;
-        System.out.println("I'm a parameterized constructor of car class.");
+        System.out.println("I'm a parameterized constructor of Car class.");
     }
 
     public void showAllInfo() {

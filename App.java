@@ -1,6 +1,7 @@
 import pkg.Car;
 import pkg.Employee;
 import pkg.Pizza;
+import pkg.Vehicle;
 
 public class App {
     public static void main(String args[]) {
@@ -14,6 +15,9 @@ public class App {
         Employee emp2 = new Employee("John wick", "killing", 12000, 45);
         emp2.showFullInfo();
 
+        System.out.println("---------------------");
+        Vehicle vehicle = new Vehicle("Toyota", "MH 12313", 15.0, "Etios cross");
+        vehicle.showFullInfo();
         System.out.println("---------------------");
 
         Pizza pizza1 = new Pizza("Base 1", "2X", 12);

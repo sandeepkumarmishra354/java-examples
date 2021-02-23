@@ -13,7 +13,7 @@ public class Pizza {
     }
 
     public Pizza(String base, String size, int toppins) {
-        System.out.println("I'm parameterized constructor of pizza class.");
+        System.out.println("I'm parameterized constructor of Pizza class.");
         this.base = base;
         this.size = size;
         this.toppins = toppins;
